@@ -1,7 +1,7 @@
 function printVowels(word){
 word =word.toLowerCase()
 const vowel = ['a', 'e' , 'i', 'o', 'u'];
-var results = "";
+let results = "";
 for (let i= 0; i < word.length; i++)
  {
     if(vowel.includes(word[i])){
